@@ -15,7 +15,7 @@
 
 ### Build the molecular fingerprint as SMILES
 
-The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at room temperature and neutral pH.
+The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
 
 ## Decide on the deep learning model
 
