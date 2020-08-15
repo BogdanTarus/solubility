@@ -6,15 +6,22 @@
 
 ## Dataset preparation
 
-## Decide on the machine learning model
+### Individual compounds and datasets with experimental solubility values
 
-## Learn the model
+from literature
+from dedicated data bases
 
-## Test the model
+### Build the molecular fingerprint as SMILES
+
+The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at room temperature and neutral pH.
+
+## Decide on the deep learning model
+
+## Learn and test the model
 
 ## Predict the aqueous solubility of novel compounds w/o experimental solubility values
 
 ## Construct a web application
 
-This application will be a flask deployed on the cloud that will take as input the SMILES string as molecular structure fingerprint of the compound and will display the solubility in units of logarithm of mol/l.
+This application will be a flask deployed on the cloud that will take as input the SMILES of the new compound and  will display the solubility.
 
