@@ -1,3 +1,8 @@
+<style type="text/css">
+  h2 { margin-left: 10px; }
+  h3 { margin-left: 20px; }
+</style>
+
 # Prediction of aqueous solubility of novel drug-like compounds
 
 ## Overview
