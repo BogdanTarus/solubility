@@ -8,8 +8,10 @@
 
 ### Individual compounds and datasets with experimental solubility values
 
-from literature
-from dedicated data bases
+* from literature
+* from dedicated data bases
+
+### Update the dataset
 
 ### Build the molecular fingerprint as SMILES
 
@@ -23,5 +25,5 @@ The resulting data set will have the duplicates removed and the solubility value
 
 ## Construct a web application
 
-This application will be a flask deployed on the cloud that will take as input the SMILES of the new compound and  will display the solubility.
+This application will be a Flask application deployed in the cloud. It will take as input the SMILES of the new compound and will display the solubility.
 
