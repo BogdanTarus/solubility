@@ -3,14 +3,14 @@
   h3 { margin-left: 20px; }
 </style>
 
->>>Assan
+>Assan:
 Bogdan pls try to to organize it with 1. 2. etc.
 the style section did not work on my end, just a FYI
->>>
+>
 
 
 # Prediction of aqueous solubility of novel drug-like compounds
->> Why is it relevant to you , to the community etc.
+> Assan:  Why is it relevant to you , to the community etc.
 
 ## Overview
 
@@ -25,7 +25,7 @@ the style section did not work on my end, just a FYI
 
 ### Update the dataset
 
->> where will you store the dataset (S3 ??)
+> Assan: where will you store the dataset (S3 ??)
 
 
 ### Build the molecular fingerprint as SMILES
@@ -34,12 +34,12 @@ the style section did not work on my end, just a FYI
 The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
 
 ## Decide on the deep learning model
->> with the litterature/bibliography u will get insights for the model to choose :)
+> Assan: with the litterature/bibliography u will get insights for the model to choose :)
 ## Learn and test the model
 
 ## Predict the aqueous solubility of novel compounds w/o experimental solubility values
 
 ## Construct a web application
 
-This application will be a Flask application deployed in the cloud. It will take as input the SMILES of the new compound and will display the solubility.
+> Assan :This application will be a Flask application deployed in the cloud. It will take as input the SMILES of the new compound and will display the solubility.
 
