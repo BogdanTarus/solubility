@@ -3,7 +3,14 @@
   h3 { margin-left: 20px; }
 </style>
 
+>>>Assan
+Bogdan pls try to to organize it with 1. 2. etc.
+the style section did not work on my end, just a FYI
+>>>
+
+
 # Prediction of aqueous solubility of novel drug-like compounds
+>> Why is it relevant to you , to the community etc.
 
 ## Overview
 
@@ -18,12 +25,16 @@
 
 ### Update the dataset
 
+>> where will you store the dataset (S3 ??)
+
+
 ### Build the molecular fingerprint as SMILES
+>> please explain to ppeople what smiles are
 
 The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
 
 ## Decide on the deep learning model
-
+>> with the litterature/bibliography u will get insights for the model to choose :)
 ## Learn and test the model
 
 ## Predict the aqueous solubility of novel compounds w/o experimental solubility values
