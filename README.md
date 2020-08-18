@@ -10,11 +10,11 @@ the style section did not work on my end, just a FYI
 # Prediction of aqueous solubility of novel drug-like compounds
 > Assan:  Why is it relevant to you , to the community etc.
 
-## Overview
+## 1. Overview
 
-## Prepare the working environment
+## 2. Prepare the working environment
 
-## Dataset preparation
+## 3. Dataset preparation
 
 ### Individual compounds and datasets with experimental solubility values
 
@@ -31,13 +31,13 @@ the style section did not work on my end, just a FYI
 
 The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
 
-## Decide on the deep learning model
+## 4. Decide on the deep learning model
 > Assan: with the litterature/bibliography u will get insights for the model to choose :)
-## Learn and test the model
+## 5. Learn and test the model
 
-## Predict the aqueous solubility of novel compounds w/o experimental solubility values
+## 6. Predict the aqueous solubility of novel compounds w/o experimental solubility values
 
-## Construct a web application
+## 7. Construct a web application
 
 > Assan :This application will be a Flask application deployed in the cloud. It will take as input the SMILES of the new compound and will display the solubility.
 
