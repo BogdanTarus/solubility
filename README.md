@@ -16,17 +16,17 @@ the style section did not work on my end, just a FYI
 
 ## 3. Dataset preparation
 
-### Individual compounds and datasets with experimental solubility values
+### 3.1. Individual compounds and datasets with experimental solubility values
 
 * from literature
 * from dedicated data bases
 
-### Update the dataset
+### 3.2. Update the dataset
 
 > Assan: where will you store the dataset (S3 ??)
 
 
-### Build the molecular fingerprint as SMILES
+### 3.3. Build the molecular fingerprint as SMILES
 >> please explain to ppeople what smiles are
 
 The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
