@@ -1,8 +1,3 @@
-<style type="text/css">
-  h2 { margin-left: 10px; }
-  h3 { margin-left: 20px; }
-</style>
-
 >Assan:
 Bogdan pls try to to organize it with 1. 2. etc.
 the style section did not work on my end, just a FYI
