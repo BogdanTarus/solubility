@@ -31,6 +31,8 @@ the style section did not work on my end, just a FYI
 
 The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
 
+### 3.4. Structure-based solubility calculation. Case study examples
+
 ## 4. Decide on the deep learning model
 > Assan: with the litterature/bibliography u will get insights for the model to choose :)
 ## 5. Learn and test the model
