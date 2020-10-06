@@ -63,9 +63,10 @@ The SMILE representation of a chemical structure is not necessarily unique, espe
 
 Branches are specified by enclosing them in paranthesis:
 
-| Encoding rule |              Structure              |    SMILES   |
-|:-------------:|:-----------------------------------:|:-----------:|
-|    branches   |  ![](media/branches_struct-1.png)   | CC(C)C(=O)O |
+| Encoding rule |              Structure           |        SMILES        |
+|:-------------:|:--------------------------------:|:--------------------:|
+|    branches   | ![](media/branches_struct-1.png) |      CC(C)C(=O)O     |
+|    branches   | ![](media/branches_struct-2.png) | C=CC(CCC)C(C(C)C)CCC |
 
 
 
