@@ -31,11 +31,20 @@ One mean of durable development involves transition to green chemistry. A way to
 
 > Assan: where will you store the dataset (S3 ??)
 
+The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
+
 
 ### 3.3. Build the molecular fingerprint as SMILES
 >> please explain to ppeople what smiles are
 
-The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
+This is a light introduction of SMILES. For an in-depth presentation of the SMILES, please see here.
+
+SMILES (Simplified Molecular Input Line Entry System) is a string representation of chemical molecules. It is a language with a simple vocabulary, including atom and bond symbols) and a few grammar rules. 
+
+SMILES notation consists of a series of characters containing no spaces. Hydrogen atoms may be omitted or included. There are encoding rules for atoms, bonds, branches, ring closures, and disconnections.
+
+
+
 
 ### 3.4. Structure-based solubility calculation. Case study examples
 
