@@ -52,6 +52,8 @@ SMILES notation consists of a series of characters containing no spaces. Hydroge
 |     bonds     |    CO2    |  carbon dioxide  |  O=C=O |
 
 
+The SMILE representation of a chemical structure is not necessarily unique:
+
 
 |       Encoding rule      |        Structure        |  Valid SMILES |
 |:------------------------:|:-----------------------:|:-------------:|
