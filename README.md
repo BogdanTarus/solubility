@@ -53,6 +53,11 @@ SMILES notation consists of a series of characters containing no spaces. Hydroge
 
 
 
+|       Encoding rule      |        Structure        |  Valid SMILES |
+|:------------------------:|:-----------------------:|:-------------:|
+|                          |                         |   C=CCC=CCO   |
+| bonds: linear structures | CH2=CH-CH2-CH=CH-CH2-OH | C=C-C-C=C-C-O |
+|                          |                         |   OCC=CCC=C   |
 
 
 ### 3.4. Structure-based solubility calculation. Case study examples
