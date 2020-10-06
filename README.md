@@ -60,6 +60,11 @@ SMILES notation consists of a series of characters containing no spaces. Hydroge
 |                          |                         |   OCC=CCC=C   |
 
 
+| Encoding rule |              Structure              |    SMILES   |
+|:-------------:|:-----------------------------------:|:-----------:|
+|    branches   | ![](.//media/branches_struct-1.png) | CC(C)C(=O)O |
+
+
 ### 3.4. Structure-based solubility calculation. Case study examples
 
 ## 4. Decide on the deep learning model
