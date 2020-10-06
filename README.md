@@ -4,7 +4,7 @@ the style section did not work on my end, just a FYI
 - pls add a description on the tab on the right corner thx.
 - pls add pictures ( to explain SMiles)
 - pls add as well resources for ppl wishing to discover what smiles are (links)
->
+>> Assan: I can see some progress : good
 
 
 # Prediction of aqueous solubility of novel drug-like compounds
@@ -36,6 +36,7 @@ The resulting data set will have the duplicates removed and the solubility value
 
 ### 3.3. Build the molecular fingerprint as SMILES
 >> please explain to ppeople what smiles are
+>> Finally : WHAT ABOUT AROMATIC COMPOUNDS? - what about rings ?  what about canonical expressions? 
 
 This is a light introduction of SMILES. For an in-depth presentation of the SMILES, please see here.
 
