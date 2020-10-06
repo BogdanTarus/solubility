@@ -43,14 +43,14 @@ SMILES (Simplified Molecular Input Line Entry System) is a string representation
 
 SMILES notation consists of a series of characters containing no spaces. Hydrogen atoms may be omitted or included. There are encoding rules for atoms, bonds, branches, ring closures, and disconnections.
 
+| Encoding rule | Structure |       Name       | SMILES |
+|:-------------:|:---------:|:----------------:|:------:|
+|      atom     |     S     | elemental sulfur |   [S]  |
+|      atom     |    CH4    |      methane     |    C   |
+|      atom     |    H2O    |       water      |    O   |
+|     bonds     |   CH3CH3  |      ethane      |   CC   |
+|     bonds     |    CO2    |  carbon dioxide  |  O=C=O |
 
-| Encoding  rule | Structure               | Name             | SMILES        |
-|----------------|-------------------------|------------------|---------------|
-| atom           | S                       | elemental sulfur | [S]           |
-| atom           | CH4                     | methane          | C             |
-| atom           | H2O                     | water            | O             |
-| bonds          | CH3CH3                  | ethane           | CC            |
-| bonds          | CO2                     | carbon dioxide   | O=C=O         |
 
 
 
