@@ -69,6 +69,15 @@ Branches are specified by enclosing them in paranthesis:
 |    branches   | ![](media/branches_struct-2.png) | C=CC(CCC)C(C(C)C)CCC |
 
 
+Cyclic structures are represented by breaking one bond in each ring:
+
+|            Structure           |      SMILES      |
+|:------------------------------:|:----------------:|
+| ![](media/cyclic_struct_1.png) |     C1CCCCC1     |
+| ![](media/cyclic_struct_2.png) |    C1=CC=CC=C1   |
+| ![](media/cyclic_struct_3.png) | O1CCCCC1N1CCCCC1 |
+
+
 
 ### 3.4. Structure-based solubility calculation. Case study examples
 
