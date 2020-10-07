@@ -78,6 +78,13 @@ Cyclic structures are represented by breaking one bond in each ring:
 | ![](media/cyclic_struct_3.png) | O1CCCCC1N1CCCCC1 |
 
 
+These are the structures of two drug candidates and their SMILES mapping:
+
+|              Structure             |                            SMILES                           |
+|:----------------------------------:|:-----------------------------------------------------------:|
+| ![](media/smiles/set_001_c001.png) |            CC(C)CCOC1=CC2=C(C=C1)C1=CC=NC(C)=C1N2           |
+| ![](media/smiles/set_002_c010.png) | OC(=O)C1CCCN1C1=NC=C(C=N1)C1=CC2=NC=CC(NC3=NC=CN=C3)=C2C=C1 |
+
 
 ### 3.4. Structure-based solubility calculation. Case study examples
 
