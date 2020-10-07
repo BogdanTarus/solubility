@@ -63,19 +63,19 @@ The SMILE representation of a chemical structure is not necessarily unique, espe
 
 Branches are specified by enclosing them in paranthesis:
 
-| Encoding rule |              Structure           |        SMILES        |
-|:-------------:|:--------------------------------:|:--------------------:|
-|    branches   | ![](media/branches_struct-1.png) |      CC(C)C(=O)O     |
-|    branches   | ![](media/branches_struct-2.png) | C=CC(CCC)C(C(C)C)CCC |
+| Encoding rule |                Structure                |        SMILES        |
+|:-------------:|:---------------------------------------:|:--------------------:|
+|    branches   | ![](media/smiles/branches_struct-1.png) |      CC(C)C(=O)O     |
+|    branches   | ![](media/smiles/branches_struct-2.png) | C=CC(CCC)C(C(C)C)CCC |
 
 
 Cyclic structures are represented by breaking one bond in each ring:
 
-|            Structure           |      SMILES      |
-|:------------------------------:|:----------------:|
-| ![](media/cyclic_struct_1.png) |     C1CCCCC1     |
-| ![](media/cyclic_struct_2.png) |    C1=CC=CC=C1   |
-| ![](media/cyclic_struct_3.png) | O1CCCCC1N1CCCCC1 |
+|               Structure               |      SMILES      |
+|:-------------------------------------:|:----------------:|
+| ![](media/smiles/cyclic_struct_1.png) |     C1CCCCC1     |
+| ![](media/smiles/cyclic_struct_2.png) |    C1=CC=CC=C1   |
+| ![](media/smiles/cyclic_struct_3.png) | O1CCCCC1N1CCCCC1 |
 
 
 These are the structures of two drug candidates and their SMILES mapping:
