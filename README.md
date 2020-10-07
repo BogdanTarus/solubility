@@ -37,7 +37,7 @@ The resulting data set will have the duplicates removed and the solubility value
 ### 3.3. Build the molecular fingerprint as SMILES
 >> please explain to ppeople what smiles are
 
-This is a light introduction of SMILES. For an in-depth presentation of the SMILES, please see here.
+This is a light introduction of SMILES. For an in-depth presentation of the SMILES, please see [here](https://www.daylight.com/dayhtml/doc/theory/theory.smiles.html).
 
 SMILES (Simplified Molecular Input Line Entry System) is a string representation of chemical molecules. It is a language with a simple vocabulary, including atom and bond symbols) and a few grammar rules. 
 
