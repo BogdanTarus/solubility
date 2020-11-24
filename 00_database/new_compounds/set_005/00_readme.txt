@@ -1,0 +1,1 @@
+C001 -----------> Page 330, Table 2, compound 12
