@@ -1,5 +1,5 @@
 
-# instructions for linux/MacOS
+# Instructions for linux/MacOS
 
 ## 1. Create an Ubuntu instance on EC2-AWS
 
@@ -12,6 +12,7 @@ privateKey="path/to/the/privatekey.pem"
 > Examples of addressIP, and addressDNS. Change accordingly.
 
 addressIP="3.88.33.133"
+
 addressDNS="ec2-3-88-33-133.compute-1.amazonaws.com"
 
 
@@ -28,11 +29,12 @@ scp -i ${privateKey} -r * ubuntu@${addressDNS}:/home/ubuntu
 ## 6. On the Ubuntu EC2 instance terminal, update and install requirements:
 
 sudo apt-get update && sudo apt-get --yes install python3-pip
+
 sudo pip3 install -r requirements.txt
 
 sudo apt-get install python3-rdkit librdkit1 rdkit-data
 
-## 7. launch it with
+## 7. Launch it with
 
 python3 app.py
 
