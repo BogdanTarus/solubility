@@ -11,18 +11,15 @@ One mean of durable development involves transition to green chemistry. A way to
 
 ## 2. Prepare the working environment
 
+This systems were prepared on a macOS machine. The training of the physical descriptors based model was done on the same macOS machine. However, the deep learning SMILESX run was deployed on Google Colab. Detailed instructions on how to set the remote working environment are given at the beginig of each jupyter notebook that run on Google Colab and were downloaded [here](https://github.com/BogdanTarus/solubility/tree/master/models/2_solubility_SMILESX).
+
 ## 3. Dataset preparation
 
 ### 3.1. Individual compounds and datasets with experimental solubility values
 
-* from literature
-* from dedicated data bases
-
-### 3.2. Update the dataset
-
 New chemical compounds, with their corresponding experimenal aqueous solubilities, are added to the reference Delaney's dataset. Detailed description of the search procedure and the deposit place can be find [here](https://github.com/BogdanTarus/solubility/tree/master/00_database/2_new_compounds).
 
-### 3.3. Build the molecular fingerprint as SMILES
+### 3.2. Build the molecular SMILES specification
 
 This is a light introduction of SMILES. For an in-depth presentation of the SMILES, please see [here](https://www.daylight.com/dayhtml/doc/theory/theory.smiles.html).
 
