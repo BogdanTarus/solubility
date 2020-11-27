@@ -102,9 +102,9 @@ A flask API that predicts the aqueous solubility can be deployed on AWS/EC2. The
 
 ## 6. Perspectives
 
-* Make an analysis of the training dataset by inspecting how the physical descriptors are distributed among the compounds. Perform a classification of the compounds within the dataset based on theit size, number of rotatable bonds, and aromaticity proportion. This will give as indication for what kind of compounds we can predict so solubility. 
+* Make an analysis of the training dataset by inspecting how the physical descriptors are distributed among the compounds. Perform a classification of the compounds within the dataset based on their size, number of rotatable bonds, and aromaticity proportion. This will give as indication for what kind of compounds we can predict so solubility. 
 
-* Add new compounds into the datset.
+* Add new compounds into the dataset.
 
 * Deploy the models as serverless APIs.
 
