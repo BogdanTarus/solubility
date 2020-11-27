@@ -70,16 +70,46 @@ These are the structures of two drug candidates and their SMILES mapping:
 | ![](media/smiles/set_002_c010.png) | OC(=O)C1CCCN1C1=NC=C(C=N1)C1=CC2=NC=CC(NC3=NC=CN=C3)=C2C=C1 |
 
 
-## 4. Construct a web application
+## 4. Model training
+
+Two models have been trained in this work. The first one uses reference research of Delaney, who proposed four physical descriptors to predict the aqueous solubility of chemical compounds. The second model tries to predict the aqueous solubility directly from the compound chemical structure, without any intermediary descriptor.
+
+### 4.1. Aqueous solubility prediction based on physical descriptors
+
+Delaney's work to calculate the aqueous solubility, S(mol/l), uses four descriptors: logP, MW, RB, and AP. The logP is the decimal logarithm of the octanol/water partition coefficient. It is a measure of the relative affinity of the compound for hydrophobic/aqueous solvents. It depends on the polarity of the compound. The $MW$ is the molecular weight of the compound. $RB$ is the number of the rotatable bonds of the compound. It is a measure of the compound entropic propensity to follow the solvent water molecules. The AP is the aromatic proportion, the ratio between the number of compound's aromatic atoms and the number of heavy atoms.
+
+logS = C0 + C1*LogP + C2*MW + C3*RB + C4*AP 
+
+where the logS is the decimal logarithm of the compound's aqueous solubility.
+
+
+### 4.2. Prediction of the aqueous solubility directly from the chemical structure
+
+This work is based on the research of Lambard and Gracheva (Guillaume Lambard and Ekaterina Gracheva 2020 Mach. Learn.: Sci. Technol. 1 025004 
+). It was slightly modified to run on Google Colab.
+
+The major inconvenient of a model that uses physical descriptors to predict the solubility is that they are empirically engineered by humans. It is thus desirable to propose methods that avoid the subjectivity of the hand-encoded features.
+
+The SMILESX workflow propose an algorithm that takes as input the SMILES structure of chemical compounds and predicts their solubility. As a SMILES specification is represented by a string, one can use techniques specific to the Natural Language Processing (NLP) to generate models for de novo drug design. 
+
+Another problem in training models for drug design predictions is the size of the training dataset. In general, the number of the samples in the dataset is of the order of 10^3, too small to apply modern neural network methods directly. The scarcity of the dataset is given by the experimental difficulty to get data associated to the descriptors. The SMILESX algorithm also propose a way to augment the size of the dataset by, in a first step, removing the canonicalization of the SMILES specifications. In a second step, the atoms of a given SMILES are renumbered by rotating their index correlated with a reconstruction of the correct SMILES syntax.
+
+ However, using abstract features to construct a neural architecture makes it difficult to interpret their contribution to the observable of interest, aqueous solubility in our case. Adding an attention mechanism to the algorithm make it possible to both read deeper into the SMILES and interpret, at no extra cost, the output of the model.
+
+## 5. Construct a web application
 
 A flask API that predicts the aqueous solubility can be deployed on AWS/EC2. The are two forms of the API: a command-line based and a HTML based. The user should input the SMILES of the chemical structure with the unknown aqueous solubility and will get the predicted value. Detailed instructions related to the deployment process can be found [here](https://github.com/BogdanTarus/solubility/tree/master/models/1_solubility_physical-descriptors/03_flask_deployment_AWS-EC2).
 
-## 5. Perspectives
+## 6. Perspectives
 
 * Make an analysis of the training dataset by inspecting how the physical descriptors are distributed among the compounds. Perform a classification of the compounds within the dataset based on theit size, number of rotatable bonds, and aromaticity proportion. This will give as indication for what kind of compounds we can predict so solubility. 
 
+* Add new compounds into the datset.
+
 * Deploy the models as serverless APIs.
+
+* Add collaborative members to the project.
 
 * Introduce metrics to the project core evaluation.
 
-* Add new compounds into the datset.
+
