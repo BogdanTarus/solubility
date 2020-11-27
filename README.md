@@ -52,7 +52,7 @@ SMILES notation consists of a series of characters containing no spaces. Hydroge
 |     bonds     |    CO2    |  carbon dioxide  |  O=C=O |
 
 
-The SMILE representation of a chemical structure is not necessarily unique, especialy in the case of linear structures:
+The SMILE representation of a chemical structure is not necessarily unique, especially in the case of linear structures:
 
 
 |       Encoding rule      |        Structure        |  Valid SMILES |
@@ -61,7 +61,7 @@ The SMILE representation of a chemical structure is not necessarily unique, espe
 | bonds: linear structures | CH2=CH-CH2-CH=CH-CH2-OH | C=C-C-C=C-C-O |
 |                          |                         |   OCC=CCC=C   |
 
-Branches are specified by enclosing them in paranthesis:
+Branches are specified by enclosing them in parenthesis:
 
 | Encoding rule |                Structure                |        SMILES        |
 |:-------------:|:---------------------------------------:|:--------------------:|

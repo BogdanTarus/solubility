@@ -1,5 +1,5 @@
 
-New chemical compounds with experimental solubility data were added based on a search on PubMed Central ([PMC](https://www.ncbi.nlm.nih.gov/pmc/)). The search was performed between the entrez dates 2018/04/01 and 2020/08/01. The key words of the search were novel, solubility, and drug-like. The papers containing solubility data obtained by computational simulations were discarded from the search. Also, many false positives containing solubility data of polymer carriers, were not included.
+New chemical compounds, with experimental solubility data, were added based on a search on PubMed Central ([PMC](https://www.ncbi.nlm.nih.gov/pmc/)). The search was performed between the entrez dates 2018/04/01 and 2020/08/31. The key words of the search were novel, solubility, and drug-like. The papers containing solubility data obtained by computational simulations were discarded from the search. Also, many false positives containing solubility data of polymer carriers, were not included.
 
 The beginning of the search result was manually inspected, five papers were selected, and compounds with their experimental aqueous solubility data were collected in five sets.
 
