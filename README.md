@@ -1,11 +1,3 @@
->Assan:
-Bogdan pls try to to organize it with 1. 2. etc.
-the style section did not work on my end, just a FYI
-- pls add a description on the tab on the right corner thx.
-- pls add pictures ( to explain SMiles)
-- pls add as well resources for ppl wishing to discover what smiles are (links)
->
-
 
 # Prediction of aqueous solubility of novel drug-like compounds
 > Assan:  Why is it relevant to you , to the community etc.
