@@ -1,6 +1,5 @@
 
 # Prediction of aqueous solubility of novel drug-like compounds
-> Assan:  Why is it relevant to you , to the community etc.
 
 ## 1. Overview
 
@@ -23,11 +22,12 @@ One mean of durable development involves transition to green chemistry. A way to
 
 > Assan: where will you store the dataset (S3 ??)
 
+New chemical compounds, with their corresponding experimenal aqueous solubilities, are added to the reference Delaney's dataset. Detailed description of the search procedure and the deposit place can be find [here](https://github.com/BogdanTarus/solubility/tree/master/00_database/2_new_compounds).
+
 The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
 
 
 ### 3.3. Build the molecular fingerprint as SMILES
->> please explain to ppeople what smiles are
 
 This is a light introduction of SMILES. For an in-depth presentation of the SMILES, please see [here](https://www.daylight.com/dayhtml/doc/theory/theory.smiles.html).
 
