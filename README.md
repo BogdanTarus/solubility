@@ -72,4 +72,4 @@ These are the structures of two drug candidates and their SMILES mapping:
 
 ## 4. Construct a web application
 
-A flask API that predict the aqueous solubility ca be deployed on AWS/EC2. The are two forms of the API: command-line based and HTML based. The user should input the SMILES of the chemical structure with the unknown aqueous solubility and will get the predicted value. Detailed instructions related to the deployment process can be found [here](https://github.com/BogdanTarus/solubility/tree/master/models/1_solubility_physical-descriptors/03_flask_deployment_AWS-EC2).
+A flask API that predicts the aqueous solubility can be deployed on AWS/EC2. The are two forms of the API: a command-line based and a HTML based. The user should input the SMILES of the chemical structure with the unknown aqueous solubility and will get the predicted value. Detailed instructions related to the deployment process can be found [here](https://github.com/BogdanTarus/solubility/tree/master/models/1_solubility_physical-descriptors/03_flask_deployment_AWS-EC2).
