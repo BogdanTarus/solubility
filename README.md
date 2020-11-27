@@ -20,12 +20,7 @@ One mean of durable development involves transition to green chemistry. A way to
 
 ### 3.2. Update the dataset
 
-> Assan: where will you store the dataset (S3 ??)
-
 New chemical compounds, with their corresponding experimenal aqueous solubilities, are added to the reference Delaney's dataset. Detailed description of the search procedure and the deposit place can be find [here](https://github.com/BogdanTarus/solubility/tree/master/00_database/2_new_compounds).
-
-The resulting data set will have the duplicates removed and the solubility values unified using units of mol/l at the room temperature and neutral pH.
-
 
 ### 3.3. Build the molecular fingerprint as SMILES
 
@@ -78,15 +73,6 @@ These are the structures of two drug candidates and their SMILES mapping:
 | ![](media/smiles/set_002_c010.png) | OC(=O)C1CCCN1C1=NC=C(C=N1)C1=CC2=NC=CC(NC3=NC=CN=C3)=C2C=C1 |
 
 
-### 3.4. Structure-based solubility calculation. Case study examples
+## 4. Construct a web application
 
-## 4. Decide on the deep learning model
-> Assan: with the litterature/bibliography u will get insights for the model to choose :)
-## 5. Learn and test the model
-
-## 6. Predict the aqueous solubility of novel compounds w/o experimental solubility values
-
-## 7. Construct a web application
-
-> Assan :This application will be a Flask application deployed in the cloud. It will take as input the SMILES of the new compound and will display the solubility.
-
+A flask API that predict the aqueous solubility ca be deployed on AWS/EC2. The are two forms of the API: command-line based and HTML based. The user should input the SMILES of the chemical structure with the unknown aqueous solubility and will get the predicted value. Detailed instructions related to the deployment process can be found [here](https://github.com/BogdanTarus/solubility/tree/master/models/1_solubility_physical-descriptors/03_flask_deployment_AWS-EC2).
