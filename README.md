@@ -76,11 +76,11 @@ Two models have been trained in this work. The first one uses reference research
 
 ### 4.1. Aqueous solubility prediction based on physical descriptors
 
-Delaney's work to calculate the aqueous solubility, S(mol/l), uses four descriptors: logP, MW, RB, and AP. The logP is the decimal logarithm of the octanol/water partition coefficient. It is a measure of the relative affinity of the compound for hydrophobic/aqueous solvents. It depends on the polarity of the compound. The $MW$ is the molecular weight of the compound. $RB$ is the number of the rotatable bonds of the compound. It is a measure of the compound entropic propensity to follow the solvent water molecules. The AP is the aromatic proportion, the ratio between the number of compound's aromatic atoms and the number of heavy atoms.
+Delaney's work to calculate the aqueous solubility, *S(mol/l)*, uses four descriptors: *logP*, *MW*, *RB*, and *AP*. The *logP* is the decimal logarithm of the octanol/water partition coefficient. It is a measure of the relative affinity of the compound for hydrophobic/aqueous solvents. It depends on the polarity of the compound. The *MW* is the molecular weight of the compound. *RB* is the number of the rotatable bonds of the compound. It is a measure of the compound entropic propensity to follow the solvent water molecules. The *AP* is the aromatic proportion, the ratio between the number of compound's aromatic atoms and the number of heavy atoms.
 
-logS = C0 + C1*LogP + C2*MW + C3*RB + C4*AP 
+*logS* = C0 + C1 *LogP* + C2 *MW* + C3 *RB* + C4 *AP* 
 
-where the logS is the decimal logarithm of the compound's aqueous solubility.
+where the *logS* is the decimal logarithm of the compound's aqueous solubility.
 
 
 ### 4.2. Prediction of the aqueous solubility directly from the chemical structure
